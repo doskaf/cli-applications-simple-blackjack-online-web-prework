@@ -45,7 +45,7 @@ def hit?(number)
 end
 
 def invalid_command
-  # code invalid_command here
+  p "Please enter a valid command"
 end
 
 #####################################################
