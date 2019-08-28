@@ -54,7 +54,7 @@ end
 
 def runner
   welcome
-  initial_round
+  card_total = initial_round
   hit?
   get_user_input
   if get_user_input(user_input) == "s"
